@@ -1,0 +1,141 @@
+body{
+    font-family: open-sans, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    padding: 10px; 
+    line-height: 200%;
+}
+
+h1{
+    font-family: baskerville-display-pt, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px;
+    font-size:25px;
+}
+
+.skip a{
+    background: white;
+    left: 0;
+    padding: 6px;
+    position: absolute;
+    top: -40px;
+    -webkit-transition: top 1s ease-out;
+    transition: top 1s ease-out;
+    z-index: 1;
+}
+
+.skip a:focus{
+    position: absolute;
+    top: 0px;
+}
+
+:focus{
+    border: 2px solid #728eb7;
+}
+
+nav a{
+    color: #ca925f;
+    font-family: baskerville-display-pt, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav li{
+    padding-right: 20px;
+    display: inline-block;
+}
+
+.container{
+    display: grid;
+    row-gap: 1fr;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto auto auto auto auto auto auto auto; 
+    width: 100vw;
+}
+
+.name{
+    grid-column: 1/-1;
+    grid-row: 1/ span 1;
+    object-fit: scale-down;
+    margin: auto;
+}
+
+.nav{
+    grid-column: 1/-1;
+    grid-row: 2/span 1;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+header{
+    grid-column: 1/-1;
+    grid-row: 3/span 1;
+    min-width: 100%;
+    padding-left: 25%;
+}
+
+.writing{
+    max-width:90%;
+    padding-left:5%;
+    grid-column:1/-1;
+    grid-row: 4/10;
+}
+
+.project{
+    grid-column: 1/-1;
+    grid-row: 4/span 1;
+    text-align: center;
+    padding: 50px;
+}
+
+.position{
+    grid-column: 1/-1;
+    grid-row: 5/span 1;
+    text-align: center;
+    padding: 50px;
+}
+
+.goal{
+    grid-column: 1/-1;
+    grid-row: 6/span 1;
+    text-align: center;
+    padding: 50px;
+}
+
+.methods{
+    grid-column: 1/-1;
+    grid-row: 7/span 1;
+    text-align: center;
+    padding: 50px;
+}
+
+.outcomes{
+    grid-column: 1/-1;
+    grid-row: 8/span 1;
+    text-align: center;
+    padding: 50px;
+}
+
+.learning{
+    grid-column: 1/-1;
+    grid-row: 9/span 1;
+    text-align: center;
+    padding: 50px;
+}
+
+footer{
+    grid-column: 1/-1;
+    grid-row: 10/span 1;
+    text-align:center;
+    margin: 100px;
+    color: #728eb7;
+    font-family: baskerville-display-pt, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-weight: bold;
+}
