@@ -137,6 +137,154 @@ footer{
     font-weight: bold;
 }
 
+@media screen and (max-width: 800px){
+    .container{
+        display: grid;
+        row-gap: 1fr;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: auto auto auto auto auto auto auto auto auto auto; 
+        width: 100vw;
+    }
+    
+    .name{
+        grid-column: 1/-1;
+        grid-row: 1/ span 1;
+        object-fit: scale-down;
+        margin: auto;
+    }
+    
+    .nav{
+        grid-column: 1/-1;
+        grid-row: 2/span 1;
+        text-align: center;
+        margin-bottom: 70px;
+    }
+    
+    .writing{
+        max-width:90%;
+        padding-left:5%;
+        grid-column:1/-1;
+        grid-row: 4/10;
+    }
+    
+    .project{
+        grid-column: 2/span 1;
+        grid-row: 4/span 1;
+        text-align: center;
+        padding: 50px;
+    }
+    
+    .position{
+        grid-column: 2/span 1;
+        grid-row: 5/span 1;
+        text-align: center;
+        padding: 50px;
+    }
+    
+    .goal{
+        grid-column: 2/span 1;
+        grid-row: 6/span 1;
+        text-align: center;
+        padding: 50px;
+    }
+    
+    .methods{
+        grid-column: 2/span 1;
+        grid-row: 7/span 1;
+        text-align: center;
+        padding: 50px;
+    }
+    
+    .outcomes{
+        grid-column: 2/span 1;
+        grid-row: 8/span 1;
+        text-align: center;
+        padding: 50px;
+    }
+    
+    .learning{
+        grid-column: 2/span 1;
+        grid-row: 9/span 1;
+        text-align: center;
+        padding: 50px;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .container{
+        display: grid;
+        row-gap: 1fr;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: auto auto auto auto auto auto auto auto auto auto; 
+        width: 100vw;
+    }
+    
+    .name{
+        grid-column: 1/-1;
+        grid-row: 1/ span 1;
+        object-fit: scale-down;
+        margin: auto;
+    }
+    
+    .nav{
+        grid-column: 1/-1;
+        grid-row: 2/span 1;
+        text-align: left;
+        margin-bottom: 70px;
+        background-color: #dfe9ef;
+        margin-bottom: 70px;
+    }
+    
+    .writing{
+        max-width:90%;
+        padding-left:5%;
+        grid-column:1/-1;
+        grid-row: 4/10;
+    }
+    
+    .project{
+        grid-column: 2/span 1;
+        grid-row: 4/span 1;
+        text-align: center;
+        padding: 50px;
+    }
+    
+    .position{
+        grid-column: 2/span 1;
+        grid-row: 5/span 1;
+        text-align: center;
+        padding: 50px;
+    }
+    
+    .goal{
+        grid-column: 2/span 1;
+        grid-row: 6/span 1;
+        text-align: center;
+        padding: 50px;
+    }
+    
+    .methods{
+        grid-column: 2/span 1;
+        grid-row: 7/span 1;
+        text-align: center;
+        padding: 50px;
+    }
+    
+    .outcomes{
+        grid-column: 2/span 1;
+        grid-row: 8/span 1;
+        text-align: center;
+        padding: 50px;
+    }
+    
+    .learning{
+        grid-column: 2/span 1;
+        grid-row: 9/span 1;
+        text-align: center;
+        padding: 50px;
+    }
+}
+
 @media screen and (prefers-reduced-motion: reduce){
     html{
         scroll-behavior: auto;

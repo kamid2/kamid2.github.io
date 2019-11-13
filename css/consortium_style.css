@@ -160,6 +160,216 @@ footer{
     font-weight: bold;
 }
 
+@media screen and (max-width:800px){
+    .container{
+        display: grid;
+        row-gap: 1fr;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto auto auto auto auto auto auto auto auto auto auto; 
+        width: 100vw;
+    }
+    
+    .name{
+        grid-column: 1/-1;
+        grid-row: 1/ span 1;
+        object-fit: scale-down;
+        margin: auto;
+    }
+    
+    .nav{
+        grid-column: 1/-1;
+        grid-row: 2/span 1;
+        text-align: center;
+        margin-bottom: 70px;
+    }
+    
+    header{
+        grid-column: 1/-1;
+        grid-row: 3/span 1;
+    }
+    
+    .project{
+        grid-column: 1/-1;
+        grid-row: 4/span 1;    
+        text-align: center;
+        margin: auto;
+        padding: 50px;
+    }
+    
+    .context{
+        grid-column: 1/-1;
+        grid-row: 5/span 1;
+        text-align: center;
+        margin: auto;
+        padding: 50px;
+        padding-top: 0px;
+    }
+    
+    .research{
+        grid-column: 1/-1;
+        grid-row: 6/span 1;
+        text-align: center;
+        margin: auto;
+        padding: 50px;        
+        padding-top: 0px;
+    }
+    
+    picture{
+        grid-column: 1/-1;
+        grid-row: 7/span 1;        
+        padding-top: 0px;
+    }
+    
+    .solution{
+        grid-column: 1/-1;
+        grid-row: 8/span 1;
+        text-align: center;
+        margin: auto;
+        padding: 50px;
+        padding-top: 0px;
+    }
+    
+    .final{
+        grid-column: 1/-1;
+        grid-row: 9/span 1;
+    }
+    
+    .p-and-p{
+        grid-column: 1/-1;
+        grid-row: 10/span 1;
+        text-align: center;
+        margin: auto;
+        padding: 50px;
+    }
+    
+    .potential{
+        grid-column: 1/-1;
+        grid-row: 11/span 1;
+        text-align: center;
+        margin: auto;
+        padding: 50px;
+        padding-top: 0px;
+    }
+    
+    footer{
+        grid-column: 1/-1;
+        grid-row: 12/span 1;
+        text-align:center;
+        margin: 100px;
+        color: #728eb7;
+        font-family: baskerville-display-pt, serif;
+        font-weight: 400;
+        font-style: normal;
+        font-weight: bold;
+    }
+}
+
+@media screen and (max-width:500px){
+    .container{
+        display: grid;
+        row-gap: 1fr;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto auto auto auto auto auto auto auto auto auto auto; 
+        width: 100vw;
+    }
+    
+    .name{
+        grid-column: 1/-1;
+        grid-row: 1/ span 1;
+        object-fit: scale-down;
+        margin: auto;
+    }
+    
+    .nav{
+        grid-column: 1/-1;
+        grid-row: 2/span 1;
+        text-align: left;
+        margin-bottom: 70px;
+        background-color: #dfe9ef;
+        padding: 15px;
+    }
+    
+    header{
+        grid-column: 1/-1;
+        grid-row: 3/span 1;
+    }
+    
+    .project{
+        grid-column: 1/-1;
+        grid-row: 4/span 1;    
+        text-align: center;
+        margin: auto;
+        padding: 50px;
+    }
+    
+    .context{
+        grid-column: 1/-1;
+        grid-row: 5/span 1;
+        text-align: center;
+        margin: auto;
+        padding: 50px;
+        padding-top: 0px;
+    }
+    
+    .research{
+        grid-column: 1/-1;
+        grid-row: 6/span 1;
+        text-align: center;
+        margin: auto;
+        padding: 50px;        
+        padding-top: 0px;
+    }
+    
+    picture{
+        grid-column: 1/-1;
+        grid-row: 7/span 1;        
+        padding-top: 0px;
+    }
+    
+    .solution{
+        grid-column: 1/-1;
+        grid-row: 8/span 1;
+        text-align: center;
+        margin: auto;
+        padding: 50px;
+        padding-top: 0px;
+    }
+    
+    .final{
+        grid-column: 1/-1;
+        grid-row: 9/span 1;
+    }
+    
+    .p-and-p{
+        grid-column: 1/-1;
+        grid-row: 10/span 1;
+        text-align: center;
+        margin: auto;
+        padding: 50px;
+    }
+    
+    .potential{
+        grid-column: 1/-1;
+        grid-row: 11/span 1;
+        text-align: center;
+        margin: auto;
+        padding: 50px;
+        padding-top: 0px;
+    }
+    
+    footer{
+        grid-column: 1/-1;
+        grid-row: 12/span 1;
+        text-align:center;
+        margin: 100px;
+        color: #728eb7;
+        font-family: baskerville-display-pt, serif;
+        font-weight: 400;
+        font-style: normal;
+        font-weight: bold;
+    }
+}
+
 @media screen and (prefers-reduced-motion: reduce){
     html{
         scroll-behavior: auto;
