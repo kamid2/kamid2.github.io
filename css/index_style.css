@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+
 .skip a{
     background: white;
     left: 0;
@@ -60,18 +64,14 @@ nav li:first-child{
 }
 
 .flex-container{
-    grid-column: 1/-1;
+    grid-column: 3/span 1;
     grid-row:3/span 1;
     display:flex;
     justify-content:center;
     justify-content: space-between;
     max-width: 100%;
+    margin: auto;
     height:auto;
-}
-
-.sizing{
-    max-width:90%;
-    padding-left:15%;
 }
 
 .gl-design-jam img{
@@ -102,4 +102,26 @@ footer{
     font-weight: 400;
     font-style: normal;
     font-weight: bold;
+}
+
+@media screen and (prefers-reduced-motion: reduce){
+    html{
+        scroll-behavior: auto;
+    }
+  
+    .skip a{
+        background: white;
+        left: 0;
+        padding: 6px;
+        position: absolute;
+        top: -40px;
+        -webkit-transition: top 1s ease-out;
+        transition: top 1s ease-out;
+        z-index: 1;
+    }
+    
+    .skip a:focus{
+        position: absolute;
+        top: 0px;
+    }
 }

@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     font-family: open-sans, sans-serif;
     font-weight: 300;
@@ -154,4 +158,26 @@ footer{
     font-weight: 400;
     font-style: normal;
     font-weight: bold;
+}
+
+@media screen and (prefers-reduced-motion: reduce){
+    html{
+        scroll-behavior: auto;
+    }
+  
+    .skip a{
+        background: white;
+        left: 0;
+        padding: 6px;
+        position: absolute;
+        top: -40px;
+        -webkit-transition: top 1s ease-out;
+        transition: top 1s ease-out;
+        z-index: 1;
+    }
+    
+    .skip a:focus{
+        position: absolute;
+        top: 0px;
+    }
 }

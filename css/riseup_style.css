@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     font-family: open-sans, sans-serif;
     font-weight: 300;
@@ -53,7 +57,7 @@ nav li{
 .container{
     display: grid;
     row-gap: 1fr;
-    grid-template-columns: auto auto;
+    grid-template-columns: auto auto auto;
     grid-template-rows: auto auto auto auto auto auto auto auto auto auto; 
     width: 100vw;
 }
@@ -72,13 +76,6 @@ nav li{
     margin-bottom: 70px;
 }
 
-header{
-    grid-column: 1/-1;
-    grid-row: 3/span 1;
-    min-width: 100%;
-    padding-left: 25%;
-}
-
 .writing{
     max-width:90%;
     padding-left:5%;
@@ -87,42 +84,42 @@ header{
 }
 
 .project{
-    grid-column: 1/-1;
+    grid-column: 2/span 1;
     grid-row: 4/span 1;
     text-align: center;
     padding: 50px;
 }
 
 .position{
-    grid-column: 1/-1;
+    grid-column: 2/span 1;
     grid-row: 5/span 1;
     text-align: center;
     padding: 50px;
 }
 
 .goal{
-    grid-column: 1/-1;
+    grid-column: 2/span 1;
     grid-row: 6/span 1;
     text-align: center;
     padding: 50px;
 }
 
 .methods{
-    grid-column: 1/-1;
+    grid-column: 2/span 1;
     grid-row: 7/span 1;
     text-align: center;
     padding: 50px;
 }
 
 .outcomes{
-    grid-column: 1/-1;
+    grid-column: 2/span 1;
     grid-row: 8/span 1;
     text-align: center;
     padding: 50px;
 }
 
 .learning{
-    grid-column: 1/-1;
+    grid-column: 2/span 1;
     grid-row: 9/span 1;
     text-align: center;
     padding: 50px;
@@ -138,4 +135,26 @@ footer{
     font-weight: 400;
     font-style: normal;
     font-weight: bold;
+}
+
+@media screen and (prefers-reduced-motion: reduce){
+    html{
+        scroll-behavior: auto;
+    }
+  
+    .skip a{
+        background: white;
+        left: 0;
+        padding: 6px;
+        position: absolute;
+        top: -40px;
+        -webkit-transition: top 1s ease-out;
+        transition: top 1s ease-out;
+        z-index: 1;
+    }
+    
+    .skip a:focus{
+        position: absolute;
+        top: 0px;
+    }
 }
