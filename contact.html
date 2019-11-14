@@ -29,7 +29,7 @@
     <div class="k">
         <img src = "images/K.jpg" alt = "Decorative K">
     </div>
-    <form id="main" method = "post">
+    <form id="main" action="https://formspree.io/meqqzvad" method="POST">
         <fieldset> 
 
             <div class="title">
@@ -38,18 +38,18 @@
             
             <div class="name">
                 <label for="name">Name:</label><br/>
-                <input type="text" id = "name" placeholder="Your Name" required><br/>
+                <input type="text" id = "name" placeholder="Your Name" name="name" required><br/>
             </div>
 
             <div class="email">
                 <label> Email: <br/>
-                    <input type="email" placeholder="email@youremail.com" required>
+                    <input type="email" name="_replyto" placeholder="email@youremail.com" required>
                 </label><br/>
             </div>
             
             <div class="message">
                 <label>Message:<br/></label>
-                <textarea form="#main" name="Message" placeholder="Your Message" required></textarea>
+                <textarea form="#main" name="message" placeholder="Your Message" required></textarea>
             </div>
 
             <div class="submit">
