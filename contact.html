@@ -13,10 +13,10 @@
 <body>
     <div class="skip"><a href="#main">Skip to Main Content</a></div>
     <div class="container">
-    <div class="name">
+    <div class="name" role="banner">
         <img src = "images/header.jpg" alt = "Kate Amidon"/>
     </div>
-        <div class="nav">
+        <div class="nav" role="navigation">
           <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
@@ -26,39 +26,39 @@
             </ul>
           </nav>
         </div>
-    <div class="k">
+    <div class="k" role="img">
         <img src = "images/K.jpg" alt = "Decorative K">
     </div>
-    <form id="main" action="https://formspree.io/meqqzvad" method="POST">
+    <form id="main" action="https://formspree.io/meqqzvad" method="POST" role="main">
         <fieldset> 
 
-            <div class="title">
+            <div class="title" role="form">
                 <legend>Connect with Me!</legend>
             </div>
             
-            <div class="name">
+            <div class="name" role="form">
                 <label for="name">Name:</label><br/>
                 <input type="text" id = "name" placeholder="Your Name" name="name" required><br/>
             </div>
 
-            <div class="email">
+            <div class="email" role="form">
                 <label> Email: <br/>
                     <input type="email" name="_replyto" placeholder="email@youremail.com" required>
                 </label><br/>
             </div>
             
-            <div class="message">
+            <div class="message" role="form">
             <label>Message:<br/>
                 <textarea form="#main" name="message" placeholder="Your Message" required></textarea>
             </label>
             </div>
 
-            <div class="submit">
+            <div class="submit" role="form">
                 <input type = "submit" value = "Submit">
             </div>
         </fieldset>
     </form> 
-    <footer>
+    <footer role="contentinfo">
         <p>&copy; 2019 Kate Amidon</p>
     </footer>
 </div>
