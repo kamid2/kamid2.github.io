@@ -38,7 +38,7 @@ h1{
 }
 
 nav a{
-    color: #ca925f;
+    color: black;
     font-family: baskerville-display-pt, serif;
     font-weight: 400;
     font-style: normal;
@@ -53,7 +53,7 @@ nav li{
 
 nav li:nth-child(2){
     text-decoration: underline;
-    color: #ca925f;
+    color: black;
 }
 
 .container{
@@ -140,7 +140,7 @@ footer{
     grid-row: 6/span 1;
     text-align:center;
     margin: 100px;
-    color: #728eb7;
+    color: black;
     font-family: baskerville-display-pt, serif;
     font-weight: 400;
     font-style: normal;
@@ -232,7 +232,7 @@ footer{
         grid-row: 7/span 1;
         text-align:center;
         margin: 100px;
-        color: #728eb7;
+        color: black;
         font-family: baskerville-display-pt, serif;
         font-weight: 400;
         font-style: normal;
@@ -327,7 +327,7 @@ footer{
         grid-row: 7/span 1;
         text-align:center;
         margin: 100px;
-        color: #728eb7;
+        color: black;
         font-family: baskerville-display-pt, serif;
         font-weight: 400;
         font-style: normal;

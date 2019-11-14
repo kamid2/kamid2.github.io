@@ -162,7 +162,7 @@ footer{
         grid-row: 4/span 1;
         text-align:center;
         margin: 100px;
-        color: #728eb7;
+        color: black;
         font-family: baskerville-display-pt, serif;
         font-weight: 400;
         font-style: normal;
@@ -191,7 +191,7 @@ footer{
         grid-row:2/span 1;
         text-align: left;
         margin-bottom: 70px;
-        background-color: #728eb7;
+        background-color: #dfe9ef;
         padding: 15px;
     }
     
@@ -230,7 +230,7 @@ footer{
         grid-row: 4/span 1;
         text-align:center;
         margin: 100px;
-        color: #728eb7;
+        color: black;
         font-family: baskerville-display-pt, serif;
         font-weight: 400;
         font-style: normal;

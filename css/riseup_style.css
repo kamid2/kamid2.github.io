@@ -41,7 +41,7 @@ h1{
 }
 
 nav a{
-    color: #ca925f;
+    color: black;
     font-family: baskerville-display-pt, serif;
     font-weight: 400;
     font-style: normal;
@@ -130,7 +130,7 @@ footer{
     grid-row: 10/span 1;
     text-align:center;
     margin: 100px;
-    color: #728eb7;
+    color: black;
     font-family: baskerville-display-pt, serif;
     font-weight: 400;
     font-style: normal;
@@ -208,6 +208,18 @@ footer{
         text-align: center;
         padding: 50px;
     }
+    
+    footer{
+        grid-column: 1/-1;
+        grid-row: 10/span 1;
+        text-align:center;
+        margin: 100px;
+        color: black;
+        font-family: baskerville-display-pt, serif;
+        font-weight: 400;
+        font-style: normal;
+        font-weight: bold;
+    }
 }
 
 @media screen and (max-width: 500px){
@@ -282,6 +294,18 @@ footer{
         grid-row: 9/span 1;
         text-align: center;
         padding: 50px;
+    }
+
+    footer{
+        grid-column: 1/-1;
+        grid-row: 10/span 1;
+        text-align:center;
+        margin: 100px;
+        color: black;
+        font-family: baskerville-display-pt, serif;
+        font-weight: 400;
+        font-style: normal;
+        font-weight: bold;
     }
 }
 

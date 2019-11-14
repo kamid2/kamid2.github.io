@@ -23,7 +23,7 @@ html{
 }
 
 nav a{
-    color: #ca925f;
+    color: black;
     font-family: baskerville-display-pt, serif;
     font-weight: 400;
     font-style: normal;
@@ -38,7 +38,7 @@ nav li{
 
 nav li:last-child{
     text-decoration: underline;
-    color: #ca925f;
+    color: black;
 }
 
 .container{
@@ -83,7 +83,7 @@ form .title{
     text-decoration: none;
     padding: 10px;
     font-size: 25px;
-    color: #728eb7;
+    color: black;
 }
 form .name{    
     font-family: baskerville-display-pt, serif;
@@ -91,7 +91,7 @@ form .name{
     font-weight: bold;
     text-decoration: none;
     padding: 10px;
-    color: #ca925f;
+    color: black;
 }
 form .email{    
     font-family: baskerville-display-pt, serif;
@@ -99,7 +99,7 @@ form .email{
     font-weight: bold;
     text-decoration: none;
     padding: 10px;
-    color: #ca925f;
+    color: black;
 }
 form .message{    
     font-family: baskerville-display-pt, serif;
@@ -107,7 +107,7 @@ form .message{
     font-weight: bold;
     text-decoration: none;
     padding: 10px;
-    color: #ca925f;
+    color: black;
 }
 
 footer{
@@ -115,7 +115,7 @@ footer{
     grid-row: 4/span 1;
     text-align:center;
     margin: 100px;
-    color: #728eb7;
+    color: black;
     font-family: baskerville-display-pt, serif;
     font-weight: 400;
     font-style: normal;
@@ -165,7 +165,7 @@ footer{
         text-decoration: none;
         padding: 10px;
         font-size: 25px;
-        color: #728eb7;
+        color: black;
     }
     form .name{    
         font-family: baskerville-display-pt, serif;
@@ -173,7 +173,7 @@ footer{
         font-weight: bold;
         text-decoration: none;
         padding: 10px;
-        color: #ca925f;
+        color: black;
     }
     form .email{    
         font-family: baskerville-display-pt, serif;
@@ -181,7 +181,7 @@ footer{
         font-weight: bold;
         text-decoration: none;
         padding: 10px;
-        color: #ca925f;
+        color: black;
     }
     form .message{    
         font-family: baskerville-display-pt, serif;
@@ -189,7 +189,7 @@ footer{
         font-weight: bold;
         text-decoration: none;
         padding: 10px;
-        color: #ca925f;
+        color: black;
     }
     
     footer{
@@ -197,7 +197,7 @@ footer{
         grid-row: 4/span 1;
         text-align:center;
         margin: 100px;
-        color: #728eb7;
+        color: black;
         font-family: baskerville-display-pt, serif;
         font-weight: 400;
         font-style: normal;
@@ -252,7 +252,7 @@ footer{
         text-decoration: none;
         padding: 10px;
         font-size: 25px;
-        color: #728eb7;
+        color: black;
     }
     form .name{    
         font-family: baskerville-display-pt, serif;
@@ -260,7 +260,7 @@ footer{
         font-weight: bold;
         text-decoration: none;
         padding: 10px;
-        color: #ca925f;
+        color: black;
     }
     form .email{    
         font-family: baskerville-display-pt, serif;
@@ -268,7 +268,7 @@ footer{
         font-weight: bold;
         text-decoration: none;
         padding: 10px;
-        color: #ca925f;
+        color: black;
     }
     form .message{    
         font-family: baskerville-display-pt, serif;
@@ -276,7 +276,7 @@ footer{
         font-weight: bold;
         text-decoration: none;
         padding: 10px;
-        color: #ca925f;
+        color: black;
     }
     
     footer{
@@ -284,7 +284,7 @@ footer{
         grid-row: 4/span 1;
         text-align:center;
         margin: 100px;
-        color: #728eb7;
+        color: black;
         font-family: baskerville-display-pt, serif;
         font-weight: 400;
         font-style: normal;
